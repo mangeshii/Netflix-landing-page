@@ -3,3 +3,15 @@
     background-color: black;
     color:white;
 }
+.hr-line{
+    border:5px solid #333333
+
+
+}
+
+
+@media only screen and (max-width:780px){
+    .text{
+        text-align: center;
+    }
+}
