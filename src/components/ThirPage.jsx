@@ -4,7 +4,7 @@ const ThirdPage = () => {
     return (
         <div className="third-page container-fluid d-flex justify-content-center align-items-center">
             <div className="row">
-                <div className="col-8 my-5 mx-auto">
+                <div className="col-md-8 col-sm-10 col-11 mx-auto my-5 ">
                     <div className="row">
                         <div className="text col-md-6 pt-5 pt-lg-0 order-md-2 order-xs-2 d-flex justify-content-center flex-column">
                             <h1>Download your shows to watch offline.</h1>

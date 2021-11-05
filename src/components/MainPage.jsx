@@ -5,6 +5,7 @@ import SecondPage from "../components/Second-page";
 import ThirdPage from "./ThirPage";
 import FourthPage from "./FourthPage";
 import FifthPage from "./FifthPage";
+import FAQPage from "./FAQPage"
 import Footer from "./Footer";
 const MainPage = () => {
     return (
@@ -44,6 +45,8 @@ const MainPage = () => {
             <FourthPage />
             <div className="hr-line"></div>
             <FifthPage />
+            <div className="hr-line"></div>
+            <FAQPage/>
             <div className="hr-line"></div>
             <Footer/>
 
