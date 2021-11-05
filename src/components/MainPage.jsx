@@ -4,6 +4,7 @@ import "../components/Second-page"
 import SecondPage from "../components/Second-page";
 import ThirdPage from "./ThirPage";
 import FourthPage from "./FourthPage";
+import FifthPage from "./FifthPage";
 
 const MainPage = () => {
     return (
@@ -36,6 +37,7 @@ const MainPage = () => {
             <SecondPage/>
             <ThirdPage/>
             <FourthPage/>
+            <FifthPage/>
         </>
     );
 };

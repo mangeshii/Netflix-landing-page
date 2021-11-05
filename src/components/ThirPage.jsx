@@ -6,7 +6,7 @@ const ThirdPage = () => {
             <div className="row">
                 <div className="col-8 mx-auto">
                     <div className="row">
-                        <div className="col-md-6 pt-5 pt-lg-0 order-1 order-sm-2 d-flex justify-content-center flex-column">
+                        <div className="col-md-6 pt-5 pt-lg-0 order-md-2 order-xs-2 d-flex justify-content-center flex-column">
                             <h1>Download your shows to watch offline.</h1>
                             <h4>
                             Save your favourites easily and always have something to watch.
