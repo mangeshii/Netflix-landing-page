@@ -2,6 +2,7 @@ import "./MainPage.scss";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../components/Second-page"
 import SecondPage from "../components/Second-page";
+import ThirdPage from "./ThirPage";
 
 const MainPage = () => {
     return (
@@ -32,6 +33,7 @@ const MainPage = () => {
 
             </div>
             <SecondPage/>
+            <ThirdPage/>
         </>
     );
 };
