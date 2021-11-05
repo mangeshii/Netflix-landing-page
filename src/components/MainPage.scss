@@ -1,4 +1,3 @@
-
 .main-page {
     height: 80vh;
     color: whitesmoke;
@@ -23,16 +22,28 @@
     margin-bottom: 3rem;
 }
 
-form{
-    width:100%;
+form {
+    width: 100%;
     font-size: 2rem;
-
 }
-.email input{
-height:6rem;
-border:none
+.email input {
+    height: 6rem;
+    border: none;
 }
-.email button{
-    border:none;
+.email button {
+    border: none;
+    height: 6rem;
+    color:white
+}
 
+@media screen and (max-width: 755px) and (min-width: 280px) {
+    .email {
+        display: flex;
+        justify-content: center;
+    }
+    .email button {
+        margin-top: 2rem;
+        text-align: center;
+        display: inline-block;
+    }
 }

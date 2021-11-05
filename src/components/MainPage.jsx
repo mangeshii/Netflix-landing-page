@@ -5,7 +5,7 @@ import SecondPage from "../components/Second-page";
 import ThirdPage from "./ThirPage";
 import FourthPage from "./FourthPage";
 import FifthPage from "./FifthPage";
-import FAQPage from "./FAQPage"
+import FAQPage from "./FAQPage";
 import Footer from "./Footer";
 const MainPage = () => {
     return (
@@ -21,7 +21,7 @@ const MainPage = () => {
                         Ready to watch? Enter your email to create or restart
                         your membership.
                     </h5>
-                    <form className="form ">
+                    <form className="form">
                         <div className="email row">
                             <input
                                 className="col-md-9 col-xs-12 col-sm-12"
@@ -29,8 +29,8 @@ const MainPage = () => {
                                 name="email"
                                 placeholder="Email address"
                             />
-                            <button className="bg-danger col-xs-12 col-md-3 col-sm-4 ">
-                                Get Started
+                            <button className="bg-danger col-xs-4 col-md-3  col-4">
+                                Get Started &gt;{" "}
                             </button>
                         </div>
                     </form>
@@ -46,10 +46,9 @@ const MainPage = () => {
             <div className="hr-line"></div>
             <FifthPage />
             <div className="hr-line"></div>
-            <FAQPage/>
+            <FAQPage />
             <div className="hr-line"></div>
-            <Footer/>
-
+            <Footer />
         </>
     );
 };

@@ -1,5 +1,51 @@
-.faq{
+section {
     background-color: black;
-    color:whitesmoke;
-    height:70vh
+    color: whitesmoke;
+    padding: 10rem 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.faq-header {
+    text-align: center;
+    font-size: 5rem;
+    margin: 4rem 0;
+}
+.faqs {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.ques {
+    display: flex;
+    justify-content: center;
+    max-width: 80%;
+}
+.questions {
+    margin-top: 10px;
+    padding: 2rem 3rem 2rem 3rem;
+    background-color: #333333;
+    display: flex;
+    justify-content: space-between;
+}
+.answers {
+    background-color: #333333;
+    margin-top: 5px;
+    padding: 0rem 0rem 0rem 3rem;
+}
+.answers h1 {
+    padding: 2rem 0;
+}
+.emailaddr {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 5rem;
+}
+.emailaddr h2 {
+    margin-bottom: 3rem;
 }
