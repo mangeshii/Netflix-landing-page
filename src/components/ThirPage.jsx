@@ -4,10 +4,10 @@ const ThirdPage = () => {
     return (
         <div className="third-page container-fluid d-flex justify-content-center align-items-center">
             <div className="row">
-                <div className="col-md-8 col-sm-10 col-11 mx-auto my-5 ">
+                <div className="col-md-10 col-lg-8 col-11 col-sm-10 col-xs-10 mx-auto my-5 ">
                     <div className="row">
                         <div className="text col-md-6 pt-5 pt-lg-0 order-md-2 order-xs-2 d-flex justify-content-center flex-column">
-                            <h1>Download your shows to watch offline.</h1>
+                            <h2>Download your shows to watch offline.</h2>
                             <h4>
                             Save your favourites easily and always have something to watch.
                             </h4>

@@ -6,11 +6,11 @@ section {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    text-align: center;
 }
+
 .faq-header {
     text-align: center;
-    font-size: 5rem;
+    font-size: 4.2rem;
     margin: 4rem 0;
 }
 .faqs {
@@ -23,7 +23,7 @@ section {
 .ques {
     display: flex;
     justify-content: center;
-    max-width: 80%;
+    max-width: 100%;
 }
 .questions {
     margin-top: 10px;
@@ -45,7 +45,23 @@ section {
     justify-content: space-between;
     flex-direction: column;
     margin-top: 5rem;
+    text-align: center;
+    align-items: center;
 }
 .emailaddr h2 {
     margin-bottom: 3rem;
+    font-size: 2.6rem;
+    max-width: 90%;
+}
+button {
+    background-color: #df4759;
+}
+button:hover {
+    background-color: red;
+}
+
+@media only screen and (min-width: 1200px) {
+    .faq-cont {
+        padding: 0 10rem;
+    }
 }

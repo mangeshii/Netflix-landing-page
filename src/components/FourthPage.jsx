@@ -5,10 +5,10 @@ const FourthPage = () => {
     return (
         <div className="fourth-page container-fluid d-flex justify-content-center align-items-center">
             <div className="row">
-                <div className="col-md-8 col-sm-10 col-11 mx-auto my-5 ">
+                <div className="col-md-10 col-lg-8 col-11 col-sm-10 col-xs-10 mx-auto my-5">
                     <div className="row">
                         <div className="text col-md-6 pt-5 pt-lg-0 order-1 order-md-1 d-flex justify-content-center flex-column">
-                            <h1>Watch everywhere.</h1>
+                            <h2>Watch everywhere.</h2>
                             <h4>
                                 Stream unlimited movies and TV shows on your
                                 phone, tablet, laptop, and TV.

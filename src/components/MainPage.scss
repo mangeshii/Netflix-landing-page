@@ -1,6 +1,6 @@
 .main-page {
     height: 80vh;
-    color: whitesmoke;
+    color: white;
     background-image: linear-gradient(
             to bottom,
             rgba(0, 0, 0, 0.4),
@@ -8,12 +8,12 @@
         ),
         url("../Images/netflix-main-page.jpg");
 }
-.main-container h1 {
-    font-size: 6.5rem;
+.main-content h1 {
+    font-size: 6rem;
     text-align: center;
     margin-bottom: 2rem;
 }
-.main-container h3 {
+.main-container h2 {
     font-size: 2.7rem;
     margin-bottom: 2rem;
 }
@@ -29,21 +29,44 @@ form {
 .email input {
     height: 6rem;
     border: none;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
 }
 .email button {
     border: none;
     height: 6rem;
-    color:white
+    color: white;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: #df4759;
 }
-
+button:hover {
+    background-color: red;
+}
 @media screen and (max-width: 755px) and (min-width: 280px) {
+    .main-content h1 {
+        font-size: 4.5rem;
+    }
+    .main-container h2 {
+        font-size: 3rem;
+    }
+    .main-container h5 {
+        font-size: 2rem;
+        text-align: center;
+    }
     .email {
         display: flex;
         justify-content: center;
+        text-align: center;
+        align-items: center;
     }
     .email button {
         margin-top: 2rem;
         text-align: center;
         display: inline-block;
+        border-radius: 5px;
+    }
+    .email input {
+        border-radius: 5px;
     }
 }

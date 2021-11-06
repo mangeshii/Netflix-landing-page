@@ -6,7 +6,7 @@ const Accordian = ({ question, answer }) => {
     return (
         <>
             <div className="faq-cont col-md-7">
-                <div className="questions " onClick={() => setShow(!show)}>
+                <div className="questions" onClick={() => setShow(!show)}>
                     <h1>{question}</h1>
                     {show ? <h1>-</h1> : <h1> +</h1>}
                 </div>

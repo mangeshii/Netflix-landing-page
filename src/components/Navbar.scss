@@ -1,0 +1,52 @@
+.navbar {
+    position: absolute;
+    width: 100%;
+}
+.nav-links {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.nav-ul {
+    display: flex;
+    justify-content: space-between;
+}
+.buttons {
+    display: flex;
+    align-items: center;
+}
+.lang-btn {
+    border: none;
+    border-radius: 2px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: .5rem 3.5rem;
+    margin: 3rem;
+    font-size: 2rem;
+}
+.signin-btn {
+    border: none;
+    border-radius: 3px;
+    color: white;
+    padding: .7rem 3.5rem;
+    font-size: 2rem;
+}
+img {
+    height: 11rem;
+}
+
+@media only screen and (max-width:552px){
+    img{
+        width:10rem;
+        height:9rem
+    }
+    .lang-btn{
+        font-size: 1.3rem;
+        padding:.2rem 2rem;margin: 1.5rem;
+    }
+    .signin-btn{
+        font-size: 1.3rem;
+        padding:.4rem 2rem
+    }
+}
