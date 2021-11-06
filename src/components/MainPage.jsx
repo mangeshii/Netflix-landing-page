@@ -1,7 +1,7 @@
 import "./MainPage.scss";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../components/Second-page";
-import Navbar from "../components/Navbar"
+import Navbar from "../components/Navbar";
 import SecondPage from "../components/Second-page";
 import ThirdPage from "./ThirPage";
 import FourthPage from "./FourthPage";
@@ -11,7 +11,7 @@ import Footer from "./Footer";
 const MainPage = () => {
     return (
         <>
-        <Navbar/>
+            <Navbar />
             <div className="main-page container-fluid d-flex justify-content-center align-items-center text-align-center">
                 <div className="main-container row d-flex flex-column justify-content-center align-items-center text-align-center ">
                     <div className="main-content col-11 d-flex flex-column justify-content-center align-items-center text-align-center">

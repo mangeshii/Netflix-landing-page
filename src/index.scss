@@ -13,6 +13,8 @@ code {
         monospace;
 }
 
+$color: "white";
+
 @media only screen and (min-width: 1251px) {
     html {
         font-size: 62.5%;
@@ -33,9 +35,3 @@ code {
         font-size: 43%;
     }
 }
-/*
-@media only screen and (max-width: 375px) {
-    html {
-        font-size: 30%;
-    }
-} */
