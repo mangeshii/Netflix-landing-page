@@ -4,6 +4,7 @@ import { useState } from "react";
 import Accordian from "./Accordian";
 
 const FAQPage = () => {
+    // eslint-disable-next-line
     const [data, setData] = useState(Questions);
     return (
         <>
