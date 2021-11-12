@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2291cebe.chunk.css",
+    "main.js": "/static/js/main.a62c8e85.chunk.js",
+    "main.js.map": "/static/js/main.a62c8e85.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.e0ede16f.js",
+    "runtime-main.js.map": "/static/js/runtime-main.e0ede16f.js.map",
+    "static/css/2.383c0125.chunk.css": "/static/css/2.383c0125.chunk.css",
+    "static/js/2.091007a2.chunk.js": "/static/js/2.091007a2.chunk.js",
+    "static/js/2.091007a2.chunk.js.map": "/static/js/2.091007a2.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.383c0125.chunk.css.map": "/static/css/2.383c0125.chunk.css.map",
+    "static/css/main.2291cebe.chunk.css.map": "/static/css/main.2291cebe.chunk.css.map",
+    "static/js/2.091007a2.chunk.js.LICENSE.txt": "/static/js/2.091007a2.chunk.js.LICENSE.txt",
+    "static/media/netflix-downloads.063578d5.jpg": "/static/media/netflix-downloads.063578d5.jpg",
+    "static/media/netflix-logo.e3567602.png": "/static/media/netflix-logo.e3567602.png",
+    "static/media/MainPage.scss": "/static/media/netflix-main-page.6016beed.jpg",
+    "static/media/netflix-tv.0049bc70.png": "/static/media/netflix-tv.0049bc70.png",
+    "static/media/netflix-watch-everyone.ff81d825.png": "/static/media/netflix-watch-everyone.ff81d825.png",
+    "static/media/netflix.children.17d95615.png": "/static/media/netflix.children.17d95615.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e0ede16f.js",
+    "static/css/2.383c0125.chunk.css",
+    "static/js/2.091007a2.chunk.js",
+    "static/css/main.2291cebe.chunk.css",
+    "static/js/main.a62c8e85.chunk.js"
+  ]
+}
